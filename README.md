@@ -42,10 +42,13 @@ Since the dataset used in training is sizable (~5.2k Food, ~4.5k Non-Food), ther
 Layer Size: 20 neurons
 Neuron Size: 5x5
 Batch Size: 32
+
 ![Best one layer model](https://raw.githubusercontent.com/elluck91/FoodClassifier/master/img/one_layer.png)
 
 ### The best model with two layers has the following parameters:
-Layer One Size: N neurons
-Layer Two Size: M neurons
-Neuron Size: 5x5
-Batch Size: 32
+Layer One Size: 20 neurons
+Layer Two Size: 100 neurons
+Neuron Size: 7x7
+Batch Size: 100
+![Best two layer model](https://raw.githubusercontent.com/elluck91/FoodClassifier/master/img/two_layer.png)
+
