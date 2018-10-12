@@ -5,7 +5,7 @@ import argparse
 import imutils
 import cv2
 
-if __name__ == '__main':
+if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-m", "--model", required=True, help="Provide path to the trained model")
     ap.add_argument("-i", "--image", required=True, help="Provide path to the image")
@@ -15,7 +15,7 @@ if __name__ == '__main':
     orig = image.copy()
 
     # pre-process the image for classification
-    image = cv2.resize(image, (28, 28))
+    image = cv2.resize(image, (32, 32))
     image = image.astype("float") / 255.0
     image = img_to_array(image)
     image = np.expand_dims(image, axis=0)
