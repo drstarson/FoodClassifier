@@ -52,3 +52,5 @@ Neuron Size: 7x7
 Batch Size: 100
 ![Best two layer model](https://raw.githubusercontent.com/elluck91/FoodClassifier/master/img/two_layer.png)
 
+# Classifier usage:
+`$ python classifier -m model.h5 -i path_to_image.jpg`
